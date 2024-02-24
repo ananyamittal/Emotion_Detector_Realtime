@@ -10,7 +10,7 @@ from keras.optimizers import Adam
 from keras.regularizers import l2
 from keras.utils import to_categorical
 
-df = pd.read_csv(r"C:\Users\Nidhi\.jupyter\Emotion Detection Video\fer2013.csv")
+df = pd.read_csv(r"C:\Users\gunja\.jupyter\Emotion Detection Video\fer2013.csv")
 # for simplicity, add the dataset in the same folder as your main.py and write:
 # df = pd.read_csv("fer2013.csv")
 # print(df.info())
